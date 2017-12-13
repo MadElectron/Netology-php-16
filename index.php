@@ -1,3 +1,9 @@
+<?php 
+    if($_GET['address'] ?? '') {
+        echo $_GET['address'];
+    }
+    
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +17,10 @@
     <div class="container">
         <h1>Yandex-карты</h1>
         <hr>
-        
+        <form action="" method="get" accept-charset="utf-8">
+            <input type="text" name="address" value="" placeholder="Введите адрес">
+            <button type="submit">Найти</button>
+        </form>
     </div>
 </body>
 </html>
