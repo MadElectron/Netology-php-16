@@ -1,0 +1,13 @@
+{
+    "name": "madelectron/task16",
+    "description": "Task 16: Composer dependency manager, from Netology",
+    "authors": [
+        {
+            "name": "Denis Bondarenko",
+            "email": "danbond85@mail.ru"
+        }
+    ],
+    "require": {
+        "yandex/geo": "^1.1"
+    }
+}
